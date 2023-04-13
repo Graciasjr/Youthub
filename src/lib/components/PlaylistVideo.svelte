@@ -1,6 +1,6 @@
 <script>
     import Fa from 'svelte-fa';
-    import deo from "../video/1.mp4";
+    // import deo from "../video/1.mp4";
     import imgs from "$lib/images/IDENTITE.jpeg";
     import { faPlus,faPencil,faCaretDown,faCaretUp } from '@fortawesome/free-solid-svg-icons';
     import PlaylistVideoFormat from './PlaylistVideoFormat.svelte';
