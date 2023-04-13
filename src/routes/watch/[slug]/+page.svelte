@@ -10,6 +10,7 @@
     main{
         /* border: 1px solid ; */
         width: 100%;
+        height: auto;
         /* height: 100vh; */
     }
 </style>
