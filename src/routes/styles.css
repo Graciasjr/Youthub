@@ -1,8 +1,14 @@
-@import '@fontsource/fira-mono';
 
 :root {
-	
+	--primary-bg-Color:var(--color1);
+	--color1:#01010c;
+	--color3:#050513;
+	--color4:/*crimson*/royalblue;
+	--color5:#0c0c22/*01010c*/;
+	--primary-color:#fafafa
+
 }
+
 
 *{
 	padding: 0;
