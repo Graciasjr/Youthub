@@ -1,5 +1,5 @@
 <script>
-    import deo from "$lib/video/1.mp4";
+    // import deo from "$lib/video/1.mp4";
     import imgs from "$lib/images/IDENTITE.jpeg";
     import Fa from "svelte-fa";
     import {  faPlay,faEye  } from '@fortawesome/free-solid-svg-icons';
