@@ -1,5 +1,5 @@
 <script>
-    import Video from '$lib/video/1.mp4';
+    // import Video from '$lib/video/1.mp4';
     import Photo from '$lib/images/IDENTITE.jpeg'
     import Fa from 'svelte-fa';
     import { faPlay,faPause,faVolumeMute,faVolumeHigh,faExpand,faThumbsUp,faThumbsDown,faShareNodes,faFileArrowDown,faArrowsDownToLine,faEllipsis} from '@fortawesome/free-solid-svg-icons'
@@ -12,6 +12,8 @@
     let muted = false
     let vol;
 
+    // videoSrc : temporaire
+    let videoSrc =""
     $:slug = $page.params.slug;
     $:showAddPlaylist = false;
     $:adding=false;
@@ -57,7 +59,7 @@
 <section>
     <header>
         <div class="video-container">
-            <video src="{Video}"
+            <video src="{videoSrc}"
                 style="cursor:{showCommandes?'auto':'none'};"
                 on:click={Play}
                 on:mousemove={progress}
